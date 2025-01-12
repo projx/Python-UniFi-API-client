@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unifi_api_client"
+version = "2.0.3"
+authors = [
+  { name="Art of WiFi", email="info@artofwifi.net" },
+]
+description = "A Python client for the UniFi Controller API"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "urllib3>=2.1.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Art-of-WiFi/UniFi-API-client"
+"Bug Tracker" = "https://github.com/Art-of-WiFi/UniFi-API-client/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["unifi_api_client"]
