@@ -4,6 +4,13 @@ This is a Python port of the PHP UniFi API Client, designed to interact with Ubi
 
 Note, this was a project done in about 2 hours on a Sunday evening using Codeium's Windsurf AI IDE... its written the code and examples, tested the outcodes and made it work.. it comes with no gaurantees or support.. if there is enough interest, then I will try to make it more robust and add more features.
 
+# UniFi API Client for Python
+
+A Python port of the [PHP UniFi API Client](https://github.com/Art-of-WiFi/UniFi-API-client) maintained by Art-of-WiFi.
+
+## Special Thanks
+
+This project would not be possible without the incredible work of [Art-of-WiFi](https://github.com/Art-of-WiFi) and their [UniFi API Client for PHP](https://github.com/Art-of-WiFi/UniFi-API-client). Their meticulous documentation, comprehensive examples, and dedication to maintaining the PHP client have been invaluable in creating this Python port. We extend our deepest gratitude for their contribution to the UniFi community.
 
 ## Installation
 
